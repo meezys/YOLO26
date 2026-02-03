@@ -1,0 +1,8 @@
+# Core library for YOLO models
+ultralytics>=8.3.0
+
+# PyTorch and Vision (Required for training and GPU support)
+# Note: Ultralytics will install these automatically, but listing them 
+# ensures you can verify versions.
+torch>=2.0.0
+torchvision>=0.15.0
